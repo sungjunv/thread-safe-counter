@@ -102,6 +102,8 @@ int main(int argc, char* argv[])
 	loop_cnt = atoi(argv[1]);
 	init(&counter);
 	
+	double time_spent=0.0;
+	clock_t begin = clock();
 	printf("semid=%d\n", counter.semid);
 
 	pthread_t p1, p2;
