@@ -10,7 +10,7 @@
 #include <sys/ipc.h>
 #include <sys/sem.h>
 
-#define PATH "/home/sj/key"
+#define PATH "/home/sj/"
 union semun
 {
 	int val;
