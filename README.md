@@ -1,5 +1,6 @@
 # thread-safe-counter
 
-
- mutex is faster than semaphore because mutex only access 1 thread, but semaphore can access the number of the semaphore variables.
+  I compared mutex and semaphore.
+  mutex only access 1 thread however semaphore can access the number of the semaphore variables.
+  so mutex is faster than semaphore.
  
